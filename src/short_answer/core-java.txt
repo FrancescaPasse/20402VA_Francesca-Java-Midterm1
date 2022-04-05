@@ -1,58 +1,58 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer: a programming language is a tool that we use to communicate with a computer.
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: JDK contains the JRE, java compiler and java debugger.
 
 What is an IDE?
-Answer:
+Answer: an IDE is a software testing tool that allows us to write,test and debug codes.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer: Oracle JDeveloper, Eclipse, NetBeans, Visual Studio Code and IntelliJ IDEA
 
 Explain the entire java life cycle.
-Answer:
+Answer: When a programmer type a code using in IDE, the code goes to the source code and a .java is created then java compiler compiles the code into a bytecode .class file. The JVM then takes the bytecode and translate it into machine readable code.
 
 What is a class?
-Answer:
+Answer: a class is a blueprint from which individual objects are created.
 
 What is an object?
-Answer:
+Answer:  an object is an instance of a class that contains states and behaviors.
 
 What is the entry point of a Java project?
-Answer:
+Answer: the main method
 
 Why is the main() method static?
-Answer:
+Answer: Because the main () method is the entry point of execution, the keyword void makes it possible to run the method without creating an object or before creating an object.
 
 Which class is the superclass of all classes?
-Answer:
+Answer: The parent class
 
 What is difference between path and classpath variables?
-Answer:
+Answer: A path environment variable is used by an operating system to find any binary or command, while classpath is only used by Java ClassLoaders to load class files.
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: Interface can have only abstract methods, wheres Abstract class can have abstract and non-abstract method. The variables declared in a Java interface are by default final. An abstract class may contain non-final variables. Members of a Java interface are public by default whereas an abstract class can have class members like private, protected. An interface can extend another Java interface only, an abstract class can extend another Java class and implement multiple Java interfaces. Lastly, an interface can be implemented using the keyword “implements” and an abstract class can be extended using the keyword “extends”.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer: No, you cannot make an object from an Interface and Abstract class because an abstract class cannot be instantiating and interfaces contains abstract methods. But we can create a reference variable of an abstract class. The reference variable is used to refer to the objects of derived classes (subclasses of abstract class).
 
 What is Access Modifier?
-Answer:
+Answer: a keyword that specifies the accessibility of a class, method or constructor.
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer: OOP means object-oriented programming, it makes it possible to create objects, re-use them and create methods to manipulate them throughout a program. Inheritance: is when one object takes on the properties and behaviors of the parent object; therefore creating a parent-child relationship between two classes. Polymorphism allows us to perform a single action in different ways; by using the attributes and methods of a class to pass it to a different class by using inheritance. Abstraction is the process of hiding certain data and showing only essential information to the user. Encapsulation is the idea of wrapping data and methods within a single class to make sure that sensitive data is hidden from users
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer: A java Package is a collection of class and interfaces. The java.lang package is imported by default.
 
-What is an API? List some API's that you have used so far.
-Answer:
+What is an API? List some APIs that you have used so far.
+Answer: API stands for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Examples: facebook, twitter, instagram, and google maps.
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer: No, because the compiler will get confused when both the parent and child class have the same methods, the compiler will not know which one to call.
 
 What is method overloading? List all of the different ways to overload.
 Answer:
@@ -70,13 +70,13 @@ Explain the difference between final, finally and finalize?
 Answer:
 
 What is a constructor?
-Answer:
+Answer: A constructor is used to initiate an object, it should have the same name as the class, and is normally called when the object is created.
 
 Can we have multiple constructors in a class?
-Answer:
+Answer: Yes
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer: java default constructor
 
 What is "this" keyword in Java? When would we use it?
 Answer:
@@ -85,16 +85,16 @@ What is "super" keyword in Java? What are some scenarios we would use it?
 Answer:
 
 What does JVM stand for?
-Answer:
+Answer: Java Virtual Machine
 
 Is JVM platform independent?
-Answer:
+Answer: Yes
 
 What version of Java are you using?
-Answer:
+Answer: Java 17
 
 What does JAR stand for?
-Answer:
+Answer: JAR stands for Java archive. It's a zipped file that contains a compressed version of .class files, audio files, image files, or directories.
 
 What is the difference between JDK and JVM?
 Answer:
@@ -103,73 +103,74 @@ What is the difference between JVM and JRE?
 Answer:
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer: compile-time is the actual time it takes to write the code and run-time is the actual time it take to run the code.
 
 What is heap?
-Answer:
+Answer: Heap is used for dynamic data storage allocation of objects.
 
 How does Java manage its memory?
-Answer:
+Answer: Java manage its memory within stack and heap units
 
 What is the difference between String, StringBuffer and StringBuilder?
-Answer:
+Answer: String objects are immutable (cannot be changed once created), and objects of StringBuffer and StringBuilder are mutable.
 
 What is Singleton class?
-Answer:
+Answer: A Singleton class is a class that can have only one object at a time.
 
 What is Serialization and Deserialization?
-Answer:
+Answer: Serialization is the process of converting the state of an object into a byte stream (used to perform input and output of 8-bit byte); whereas in Deserialization the byte stream is used to recreate the actual Java object in memory.
 
 Explain the difference between While and Do..While loops?
 Answer:
 
 What is Enum?
-Answer:
+Answer: a specific data type that represents variables that cannot be changed. Usually in all uppercase letters.
 
 What is Iterator?
-Answer:
+Answer: An Iterator is an object that can be used to loop (traverse, iterate) through collections. Iterators also allow for individual access to each member of the collection, without affecting the rest of the collection.
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer: Integer because unlike int, it's a class and therefore java allocates more memory for it (16 bytes) vs an int 4 bytes.
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer: Because they cannot be changed once created.
 
 What is constructor chaining in Java?
-Answer:
+Answer: Constructor chaining is the process of calling one constructor from another constructor.
+
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer: Serial garbage collector uses a single thread for garbage collection process while the parallel garbage collector uses multiple threads for the garbage collection.
 
 What does JIT stands for?
-Answer:
+Answer: Just-In-Time
 
 Explain the process of Java garbage collection?
 Answer:
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer: Yes, because it's performed automatically in Java.
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer: A stack is used to store the order of method execution and local variables while the heap memory stores the objects and it uses dynamic memory allocation. New objects are always created in heap space, and the references to these objects are stored in stack memory
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: Reflection is the ability to inspect and dynamically call classes, methods, attributes, etc. at runtime. It useful because it lets one writes programs that do not know everything at compile time, making them more dynamic, since they can be tied together at runtime.
 
 What is multithreading in Java?
-Answer:
+Answer: When two or more threads can run at the same time while each thread performs their given tasks to maximum utilization of CPU.
 
 What is synchronization in Java?
-Answer:
+Answer: a method used when during multithreading that allows one thread at a time to be executed inside a synchronized code block.
 
 What is a Framework?
-Answer:
+Answer: a foundation/structure that one can use to create software applications.
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer:JUnit, TestNG, Cucumber, Mockito, Selenium, Spock, and Spring Framework.
 
 What are jUnit and testNG?
-Answer:
+Answer: Software testing frameworks.
 
 What are the dependencies for this project?
 Answer:
@@ -178,4 +179,3 @@ What is dependency injection in Java?
 Answer:
 
 Explain what static binding and dynamic binding is?
-Answer:

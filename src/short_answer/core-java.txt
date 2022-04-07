@@ -121,7 +121,7 @@ What is Serialization and Deserialization?
 Answer: Serialization is the process of converting the state of an object into a byte stream (used to perform input and output of 8-bit byte); whereas in Deserialization the byte stream is used to recreate the actual Java object in memory.
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer: While loop checks the condition first and then executes the statement(s), whereas do while loop will execute the statement(s) at least once, then the condition is checked.
 
 What is Enum?
 Answer: a specific data type that represents variables that cannot be changed. Usually in all uppercase letters.
@@ -146,7 +146,7 @@ What does JIT stands for?
 Answer: Just-In-Time
 
 Explain the process of Java garbage collection?
-Answer:
+Answer: Java garbage collection is an automatic process. Automatic garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
 
 Can you guarantee the garbage collection process?
 Answer: Yes, because it's performed automatically in Java.

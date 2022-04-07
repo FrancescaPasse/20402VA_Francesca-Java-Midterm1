@@ -49,22 +49,24 @@ What is the difference between the HashTable and HashMap?
 Answer: Hashtable does not allow null keys or values. HashMap allows one null key and any number of null values.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: HashMaps work by storing data values that we call retrieve any given time, they are used because we can store key values in them and call the key later.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer: A error that tells us the index we are trying to access is not available. Tt occurs we are trying to access any item of an array at an index which is not present in the array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: Using the System.arraycopy() method, the clone() method, or by creating an empty array and using loops to copy each element from the previous array.
 
 What is DFS and BFS?
-Answer:
+Answer: DFS(Depth First Search) uses Stack data structure and BFS(Breadth First Search) uses Queue data structure for finding the shortest path.
 
 What is Recursion?
-Answer:
+Answer: A method that calls itself is a recursive method.
 
 What are linear and non-linear data Structures?
-Answer:
+Answer: In non-linear data structure, data elements are hierarchically connected and are present at various levels. In linear data structure, data elements are sequentially connected and each element is traversable through a single run.
 
 Outline different sorting algorithms and their time complexities:
 
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure.

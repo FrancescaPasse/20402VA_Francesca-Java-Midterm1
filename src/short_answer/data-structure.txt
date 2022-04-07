@@ -1,52 +1,52 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer: To store, organize and retrieve data
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer: traversing, looping, and insertion
 
 When would we use data structures in the real world?
-Answer:
+Answer: To store, organize and retrieve data
 
 What is an Array?
-Answer:
+Answer: An array is a container object that holds a fixed number of values.
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer: Array is a fixed length data structure whereas ArrayList is a variable length Collection class
 
 What is a LinkedList?
-Answer:
+Answer: Linked List can be defined as collection of objects called nodes that are randomly stored in the memory
 
 How is an Array different from LinkedList?
-Answer:
+Answer: An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers
 
 What is a Queue?
-Answer:
+Answer: The Queue interface present in the java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order.
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer: Stack is a linear data structure which follows a particular order in which the operations are performed.
 
 What is FIFO and LIFO?
-Answer:
+Answer: The Last-In, First-Out (LIFO) method assumes that the last unit to arrive in inventory or more recent is sold first. The First-In, First-Out (FIFO) method assumes that the oldest unit of inventory is the sold first.
 
 Explain Big O Notation?
-Answer:
+Answer: Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Thus, it gives the worst-case complexity of an algorithm.
 
 What is the best case to search an element from an array?
-Answer:
+Answer: The best case complexity is O(1) when element is first or last element in the array.
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: The worst-case time complexity is O(log N) . This means that as the number of values in a dataset increases, the performance time of the algorithm (the number of comparisons) increases as a function of the base-2 logarithm of the number of values.
 
 Describe what a tree data structure is?
-Answer:
+Answer: A tree is a hierarchical data structure defined as a collection of nodes
 
 Describe what a graph data structure is?
-Answer:
+Answer: A graph is a non-linear kind of data structure made up of nodes or vertices and edges
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: Hashtable does not allow null keys or values. HashMap allows one null key and any number of null values.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
 Answer:

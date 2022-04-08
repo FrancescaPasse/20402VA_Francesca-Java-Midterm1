@@ -79,7 +79,7 @@ If we don't have a constructor declared, what is called during the object creati
 Answer: java default constructor
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer: we use "this" keyword to refer to a new method or constructor. We use it to call a new method or constructor.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
 Answer:

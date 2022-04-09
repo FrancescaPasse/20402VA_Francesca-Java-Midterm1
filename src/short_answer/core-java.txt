@@ -55,16 +55,16 @@ Does java support multiple inheritance? Why or why not?
 Answer: No, because the compiler will get confused when both the parent and child class have the same methods, the compiler will not know which one to call.
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer:Method Overloading is a feature that allows a class to have more than one method having the same name,if their argument lists are different. There are three types of method overriding: Number of parameters, Sequence of Data type of parameters and Data type of parameter.
 
 Explain exceptions in java and how to handle them.
 Answer:
 
 What is static keyword? When and how do we use it?
-Answer:
+Answer:The Static keyword is used for memory management mainly. We can apply static keyword with variable, methods, blocks and nested classes. We can use Static keywords We can declare a class static by using the static keyword.
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer: Using a final keyword makes the attributes, method or class constant(can't be extended). A final method cannot be overridden.
 
 Explain the difference between final, finally and finalize?
 Answer:
@@ -82,7 +82,7 @@ What is "this" keyword in Java? When would we use it?
 Answer: we use "this" keyword to refer to a new method or constructor. We use it to call a new method or constructor.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer: A "super" keyword in Java is a reference variable which is used to refer immediate parent class object.
 
 What does JVM stand for?
 Answer: Java Virtual Machine
@@ -97,10 +97,10 @@ What does JAR stand for?
 Answer: JAR stands for Java archive. It's a zipped file that contains a compressed version of .class files, audio files, image files, or directories.
 
 What is the difference between JDK and JVM?
-Answer:
+Answer:Java Development Kit (JDK) is a software development environment used for developing Java applications and applets.
 
 What is the difference between JVM and JRE?
-Answer:
+Answer:The Java Runtime Environment provides the minimum requirements for executing a Java application; it consists of the Java Virtual Machine (JVM), core classes, and supporting files.
 
 Explain the difference between compile-time and run-time?
 Answer: compile-time is the actual time it takes to write the code and run-time is the actual time it take to run the code.
@@ -173,7 +173,7 @@ What are jUnit and testNG?
 Answer: Software testing frameworks.
 
 What are the dependencies for this project?
-Answer:
+Answer:jars
 
 What is dependency injection in Java?
 Answer:

@@ -18,7 +18,7 @@ public class Palindrome {
         int palWordLength= palWord.length();
         for (int i = (palWordLength -1); i>=0; i--)
             remain = remain + palWord.charAt(i);
-        if (palWord.toLowerCase().equals(remain.toLowerCase())) {
+        if (palWord.equals(remain.toLowerCase())) {
             System.out.println(palWord + " is a palindrome");
         }
         else {

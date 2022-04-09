@@ -52,7 +52,7 @@ How do HashMaps work in Java? How do they store values, and when are they useful
 Answer: HashMaps work by storing data values that we call retrieve any given time, they are used because we can store key values in them and call the key later.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer: A error that tells us the index we are trying to access is not available. Tt occurs we are trying to access any item of an array at an index which is not present in the array.
+Answer: A error that tells us the index we are trying to access is not available. It occurs we are trying to access any item of an array at an index which is not present in the array.
 
 What are the different ways of copying an array into another array?
 Answer: Using the System.arraycopy() method, the clone() method, or by creating an empty array and using loops to copy each element from the previous array.

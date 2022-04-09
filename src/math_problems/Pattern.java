@@ -16,6 +16,23 @@ public class Pattern {
     // 70-40=30 (3)
     // 40-0 = 40 (4)
 
+    public static void main (String[] args){
+        int value= 100;
+        int firstNumber =1;
+        int secondNumber =1;
+        while (value>=0){
+            System.out.print(value + " ");
+            value -=secondNumber;
+            firstNumber++;
+            if (firstNumber ==11) {
+                firstNumber=1;
+                secondNumber++;
+
+
+            }
+        }
+    }
+
 }
 
 

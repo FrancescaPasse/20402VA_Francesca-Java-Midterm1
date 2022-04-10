@@ -3,7 +3,7 @@
 What is a programming language?
 Answer: a programming language is a tool that we use to communicate with a computer.
 
-What is a JDK composed of? Define each components?
+What is a JDK composed of? Define each component?
 Answer: JDK contains the JRE, java compiler and java debugger.
 
 What is an IDE?
@@ -58,7 +58,9 @@ What is method overloading? List all of the different ways to overload.
 Answer:Method Overloading is a feature that allows a class to have more than one method having the same name,if their argument lists are different. There are three types of method overriding: Number of parameters, Sequence of Data type of parameters and Data type of parameter.
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer: Java exception handling is required for handling the runtime errors so that the normal flow of the application is maintained and the program runs after the exception has occurred.
+                An exception is thrown at runtime and normally disrupts the flow of the program.
+                Exception handling is used in Java to handle this exception and the objective is to maintain the normal flow of the application if the exception occurs.v 66y7
 
 What is static keyword? When and how do we use it?
 Answer:The Static keyword is used for memory management mainly. We can apply static keyword with variable, methods, blocks and nested classes. We can use Static keywords We can declare a class static by using the static keyword.
@@ -67,7 +69,10 @@ What is final keyword? When and how do we use it?
 Answer: Using a final keyword makes the attributes, method or class constant(can't be extended). A final method cannot be overridden.
 
 Explain the difference between final, finally and finalize?
-Answer:
+Answer: The final keyword is used for making variable as a constant.
+               Finally: The finalize methods are used to handle exception.The finally block is known to optional and it provides a mechanism to clean up without regarding of what happens inside the try block.
+               Finalize: The finalize method provide help in the garbage collection. This method is call before any object is discarded by the garbage collector, which will allow it to clean up its state
+
 
 What is a constructor?
 Answer: A constructor is used to initiate an object, it should have the same name as the class, and is normally called when the object is created.
@@ -138,7 +143,6 @@ Answer: Because they cannot be changed once created.
 What is constructor chaining in Java?
 Answer: Constructor chaining is the process of calling one constructor from another constructor.
 
-
 The difference between Serial and Parallel Garbage Collector?
 Answer: Serial garbage collector uses a single thread for garbage collection process while the parallel garbage collector uses multiple threads for the garbage collection.
 
@@ -176,6 +180,7 @@ What are the dependencies for this project?
 Answer:jars
 
 What is dependency injection in Java?
-Answer:
+Answer: Dependency injection is a design pattern used to implement Ioc
 
 Explain what static binding and dynamic binding is?
+Static Binding: Static Binding is known as Compile time polymorphism. It is called compile-time polymorphism because object type is determined or is resolved at compile time only. The object type is resolved by the compiler and thus it is also called Early Binding. Dynamic Binding: Dynamic Binding is also known as run time polymorphism. It is called run-time polymorphism because object type is determined or is resolved at run-time. The object type is not resolved by the compiler and thus it is also called Late Binding. Dynamic Binding is achieved by virtual functions and pointers
